@@ -24,13 +24,17 @@ connectDB()
 
 // Middleware
   //Using EJS for views
+app.set('views', path.join(__dirname, 'views/layouts'))
 app.set("view engine", "ejs")
   // put static files in public folder
-app.set(express.static("public"))
+app.use(express.static("public"))
   // Body parsing: parse user req/user input from form that comes in URL & extact/extend that data from URL so we can use it
 app.use(express.urlencoded({extended: true}) )
 
 // Routes
+// Router(s) config
+const indexRouter = require('./routes/main')
+app.use('/', indexRouter)
 
 // start Server
 // at port 8000 listen for input from user (we use morgan to log these req into console)
