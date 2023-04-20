@@ -30,6 +30,8 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22",
     "passport": "^0.6.0",
-    "passport-google-oauth20": "^2.0.0"
+    "passport-google-oauth20": "^2.0.0",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.0"
   }
 }
