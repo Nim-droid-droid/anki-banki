@@ -24,7 +24,7 @@ connectDB()
 
 // Middleware
   //Using EJS for views
-app.set('views', path.join(__dirname, 'views/layouts'))
+app.set('views', path.join(__dirname, '../client/views'))
 app.set("view engine", "ejs")
   // put static files in public folder
 app.use(express.static("public"))
@@ -34,7 +34,8 @@ app.use(express.urlencoded({extended: true}) )
 // Routes
 // Router(s) config
 const indexRouter = require('./routes/main')
-app.use('/', indexRouter)
+const accountRouter = require('./routes/user')
+app.use('/', indexRouter, accountRouter)
 
 // start Server
 // at port 8000 listen for input from user (we use morgan to log these req into console)
