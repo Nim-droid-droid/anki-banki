@@ -24,7 +24,7 @@ connectDB()
 
 // Middleware
   //Using EJS for views
-app.set('views', path.join(__dirname, 'views/layouts'))
+app.set('views', path.join(__dirname, '../client/views'))
 app.set("view engine", "ejs")
   // put static files in public folder
 app.use(express.static("public"))
