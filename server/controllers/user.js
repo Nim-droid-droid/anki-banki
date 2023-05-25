@@ -1,7 +1,7 @@
 const data = require("../models/index")
 const bcrypt = require("bcryptjs")
 const jwt = require("jsonwebtoken")
-const User = require("../models/user")
+const User = require("../models/User")
 const dotenv = require("dotenv").config({ path: "./config/.env" });
 
 const login = async(req, res) => {
