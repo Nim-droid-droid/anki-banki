@@ -30,6 +30,7 @@ app.set("view engine", "ejs")
 app.use(express.static("public"))
   // Body parsing: parse user req/user input from form that comes in URL & extact/extend that data from URL so we can use it
 app.use(express.urlencoded({extended: true}) )
+app.use(express.json())
 
 // Routes
 // Router(s) config
