@@ -40,4 +40,4 @@ app.use('/', indexRouter, accountRouter)
 
 // start Server
 // at port 8000 listen for input from user (we use morgan to log these req into console)
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+app.listen(PORT, () => console.log(`Starting server on port ${PORT} in ${process.env.NODE_ENV} mode`))
