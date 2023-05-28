@@ -49,9 +49,8 @@ app.use(express.urlencoded({extended: true}) )
 app.use(express.json())
 
 // Router(s) config
-const indexRouter = require('./routes/main')
-const accountRouter = require('./routes/user')
-app.use('/', indexRouter, accountRouter)
+app.use('/', require("./routes/main"))
+app.use("/", require("./routes/user"))
 
 const PORT = 8000;
 app.listen(process.env.PORT || PORT, () => {

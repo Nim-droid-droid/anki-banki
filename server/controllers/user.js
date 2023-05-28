@@ -46,6 +46,18 @@ const postSignup = async(req, res, next) => {
     })
 }
 
+const google = async(req, res) => {
+    passport.authenticate("google", { scope: ["profile"] })(req, res)
+}
+
+const googleCallback = async(req, res) => {
+    passport.authenticate("google", {
+         failureRedirect: "/login",
+         successRedirect: "/",
+         failureFlash: "Invalid Google credentials"
+    })(req, res)
+}
+
 const logout = (req, res) => {
     // TODO: remove this workaround once passportjs is properly updated to stop giving
     // req.session.regenerate undefined errors, otherwise this is a needed workaround
@@ -71,4 +83,14 @@ const deleteUser = (req, res) => {
     res.send("deleteUser")
 }
 
-module.exports = { getLogin, getSignup, postLogin, postSignup , logout, getAccount, deleteUser }
+module.exports = {
+    getLogin,
+    getSignup,
+    postLogin,
+    postSignup,
+    google,
+    googleCallback,
+    logout,
+    getAccount,
+    deleteUser,
+}
