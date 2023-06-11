@@ -1,13 +1,17 @@
 const express = require("express");
 const router = express.Router()
 const userController = require("../controllers/user")
-const auth = require("../middleware/auth");
+const { ensureAuth, ensureGuest } = require("../middleware/auth");
 
-router.post('/login', userController.login)
+router.get('/login', userController.getLogin)
+router.post('/login', userController.postLogin)
 router.post('/logout', userController.logout)
-router.post('/signup', userController.signup)
+router.get('/signup', userController.getSignup)
+router.post('/signup', userController.postSignup)
+router.get("/auth/google", userController.google)
+router.get("/auth/google/callback", userController.googleCallback)
 
-router.get('/account', auth.check, userController.getAccount)
-router.post('/account/delete', auth.check, userController.deleteUser)
+router.get('/account', ensureAuth, userController.getAccount)
+router.post('/account/delete', ensureAuth, userController.deleteUser)
 
 module.exports = router

@@ -1,19 +1,23 @@
 const jwt = require("jsonwebtoken");
+const User = require("../models/User")
 
-module.exports = {
-    check: async (req, res, next) => {
-        try {
-            const token = req.headers.authorization.split(" ")[0];
+const ensureAuth = async(req, res, next) => {
+    const token = req.cookies?.jwt;
 
-            let decodedData;
-            if (token) {
-                decodedData = jwt.verify(token, process.env.JWT_SECRET);
-                req.userId = decodedData?.id;
-            }
-
-            next()
-        } catch (error) {
-            console.log(error)
-        }
+    if (req.isAuthenticated()) {
+        return next()
+    } else {
+        res.redirect("/")
     }
 }
+
+const ensureGuest = async(req, res, next) => {
+    console.log("ensureGuest", req)
+    if (req.isAuthenticated()) {
+        res.redirect("/")
+    } else {
+        return next()
+    }
+}
+
+module.exports = { ensureAuth, ensureGuest }

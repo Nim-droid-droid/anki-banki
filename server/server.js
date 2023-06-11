@@ -1,42 +1,58 @@
-// bring in the stuff u downloaded for the prj. Unless u bring in express u cant use it even though its downloaded
+// Load .env config
+require('dotenv').config({ path: "./config/.env" });
+
 const express = require('express')
-const path = require('path')
+const session = require("express-session")
+const passport = require('passport')
+const MongoStore = require('connect-mongo');
 const mongoose = require('mongoose')
-// const dotenv = require('dotenv')
+const path = require('path')
 const morgan = require('morgan')
 const methodOverride = require('method-override')
-const passport = require('passport')
-const session = require('express-session')
-const MongoStore = require('connect-mongo');
-const connectDB = require('./config/database')
-const PORT = 8000
 
+// Initialize Express
 const app = express()
 
-
-
-//Use .env file in config folder
-require("dotenv").config({ path: "./config/.env" });
-
-
-// Connect to DB
-connectDB()
-
-// Middleware
-  //Using EJS for views
+// Template engine config
 app.set('views', path.join(__dirname, '../client/views'))
 app.set("view engine", "ejs")
-  // put static files in public folder
+
+// Connect to DB
+const { connectDB } = require('./config/database')
+connectDB()
+
+// Config auth (passport) and sessions
+require("./config/passport")(passport)
+let sess = {
+  secret: process.env.SESSION_SECRET,
+  resave: false,
+  saveUninitialized: false,
+  store: MongoStore.create({
+   client: mongoose.connection.getClient(),
+  }),
+  cookie: {}
+}
+
+if (process.env.NODE_ENV === "production") {
+  app.set("trust proxy", 1)
+  sess.cookie.secure = true
+}
+
+// Middleware
 app.use(express.static("public"))
-  // Body parsing: parse user req/user input from form that comes in URL & extact/extend that data from URL so we can use it
+app.use(session(sess))
+app.use(passport.initialize())
+app.use(passport.session())
+
+// Enable express request url and body parsing
 app.use(express.urlencoded({extended: true}) )
+app.use(express.json())
 
-// Routes
 // Router(s) config
-const indexRouter = require('./routes/main')
-const accountRouter = require('./routes/user')
-app.use('/', indexRouter, accountRouter)
+app.use('/', require("./routes/main"))
+app.use("/", require("./routes/user"))
 
-// start Server
-// at port 8000 listen for input from user (we use morgan to log these req into console)
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`))
+const PORT = 8000;
+app.listen(process.env.PORT || PORT, () => {
+  console.log(`Starting server on port ${PORT} in ${process.env.NODE_ENV} mode`);
+})
