@@ -920,6 +920,446 @@
       "javascript"
     ],
     "question": "Why you might want to create static class members?"
+  },
+  {
+    "id": 119,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Can you name two programming paradigms important for JavaScript app developers?"
+  },
+  {
+    "id": 120,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is functional programming?"
+  },
+  {
+    "id": 121,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is the difference between classical inheritance and prototypal inheritance?"
+  },
+  {
+    "id": 122,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are the pros and cons of functional programming vs object-oriented programming?"
+  },
+  {
+    "id": 123,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are two-way data binding and one-way data flow, and how are they different?"
+  },
+  {
+    "id": 124,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is asynchronous programming, and why is it important in JavaScript?"
+  },
+  {
+    "id": 125,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is Node.js? Where can you use it?"
+  },
+  {
+    "id": 126,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Why use Node.js?"
+  },
+  {
+    "id": 127,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are the features of Node.js?"
+  },
+  {
+    "id": 128,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "How do you update NPM to a new version in Node.js?"
+  },
+  {
+    "id": 129,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Why is Node.js Single-threaded?"
+  },
+  {
+    "id": 130,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Explain callback in Node.js."
+  },
+  {
+    "id": 131,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is callback hell in Node.js?"
+  },
+  {
+    "id": 132,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "How do you prevent/fix callback hell?"
+  },
+  {
+    "id": 133,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Explain the role of REPL in Node.js."
+  },
+  {
+    "id": 134,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Name the types of API functions in Node.js."
+  },
+  {
+    "id": 135,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are the functionalities of NPM in Node.js?"
+  },
+  {
+    "id": 136,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is the difference between Node.js and Ajax?"
+  },
+  {
+    "id": 137,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are “streams” in Node.js? Explain the different types of streams present in Node.js."
+  },
+  {
+    "id": 138,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Explain chaining in Node.js."
+  },
+  {
+    "id": 139,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are Globals in Node.js?"
+  },
+  {
+    "id": 140,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is Event-driven programming?"
+  },
+  {
+    "id": 141,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is Event loop in Node.js work? And How does it work?"
+  },
+  {
+    "id": 142,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is the purpose of module.exports in Node.js?"
+  },
+  {
+    "id": 143,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is the difference between Asynchronous and Non-blocking?"
+  },
+  {
+    "id": 144,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is Tracing in Node.js?"
+  },
+  {
+    "id": 145,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "How will you debug an application in Node.js?"
+  },
+  {
+    "id": 146,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Difference between setImmediate() vs setTimeout()?"
+  },
+  {
+    "id": 147,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is process.nextTick()"
+  },
+  {
+    "id": 148,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is package.json? What is it used for?"
+  },
+  {
+    "id": 149,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is libuv?"
+  },
+  {
+    "id": 150,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are some of the most popular modules of Node.js?"
+  },
+  {
+    "id": 151,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is EventEmitter in Node.js?"
+  },
+  {
+    "id": 152,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is recursion and give an example using javascript?"
+  },
+  {
+    "id": 153,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What are types?"
+  },
+  {
+    "id": 154,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What are data structures?"
+  },
+  {
+    "id": 155,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is an algorithm? "
+  },
+  {
+    "id": 156,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is scope / lexical scope in javascript? "
+  },
+  {
+    "id": 157,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is polymorphism?"
+  },
+  {
+    "id": 158,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is encapsulation? "
+  },
+  {
+    "id": 159,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Linked List"
+  },
+  {
+    "id": 160,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Doubly Linked List"
+  },
+  {
+    "id": 161,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Queue"
+  },
+  {
+    "id": 162,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Stack"
+  },
+  {
+    "id": 163,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Hash Table"
+  },
+  {
+    "id": 164,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Heap"
+  },
+  {
+    "id": 165,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Trie"
+  },
+  {
+    "id": 166,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Tree"
+  },
+  {
+    "id": 167,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Binary Search Tree"
+  },
+  {
+    "id": 168,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Disjoint Set"
+  },
+  {
+    "id": 169,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Bloom Filter"
+  },
+  {
+    "id": 170,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "Demonstrate Bubble Sort and explain when you might use it?"
+  },
+  {
+    "id": 171,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "Demonstrate Insertion Sort and explain when you might use it?"
+  },
+  {
+    "id": 172,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "Demonstrate Merge Sort and explain when you might use it?"
+  },
+  {
+    "id": 173,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "Demonstrate Quicksort and explain when you might use it?"
   }
 ]
 
