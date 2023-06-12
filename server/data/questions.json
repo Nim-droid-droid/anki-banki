@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "type": "behavioral",
+        "question": "Give me an example of the project or initiative that you started on your own. It can be a non-business one. What prompted you to get started?"
+    },
+    {
+        "id": 2,
+        "type": "behavioral",
+        "question": "Tell me about a time you had to work on several projects at once. How did you handle this?"
+    },
+    {
+        "id": 3,
+        "type": "behavioral",
+        "question": "Describe a situation in which you felt you had not communicated well enough. What did you do? How did you handle it?"
+    },
+    {
+        "id": 4,
+        "type": "behavioral",
+        "question": "Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?"
+    },
+    {
+        "id": 5,
+        "type": "behavioral",
+        "question": "Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?"
+    },
+    {
+        "id": 6,
+        "type": "behavioral",
+        "question": "Describe a situation in which you worked diligently on a project and it did not produce the desired results. Why didn't you get the desired results? What did you learn from the experience?"
+    },
+    {
+        "id": 7,
+        "type": "behavioral",
+        "question": "Give an example of an important project goal you reached and how you achieved it."
+    },
+    {
+        "id": 8,
+        "type": "behavioral",
+        "question": "Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way"
+    },
+    {
+        "id": 9,
+        "type": "behavioral",
+        "question": "Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?"
+    },
+    {
+        "id": 10,
+        "type": "behavioral",
+        "question": "Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?"
+    },
+    {
+        "id": 11,
+        "type": "behavioral",
+        "question": "Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?"
+    },
+    {
+        "id": 12,
+        "type": "behavioral",
+        "question": "Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?"
+    },
+    {
+        "id": 13,
+        "type": "behavioral",
+        "question": "Tell me about yourself."
+    },
+    {
+        "id": 14,
+        "type": "behavioral",
+        "question": "Tell me about your experience at 100Devs. "
+    },
+    {
+        "id": 15,
+        "type": "behavioral",
+        "question": "What do you know about our company?"
+    },
+    {
+        "id": 16,
+        "type": "behavioral",
+        "question": "Why do you want to work for us?"
+    },
+    {
+        "id": 17,
+        "type": "behavioral",
+        "question": "Why are you interested in this opportunity?"
+    },
+    {
+        "id": 18,
+        "type": "behavioral",
+        "question": "Tell me about your dream job?  What do you really want to do with your career?"
+    },
+    {
+        "id": 19,
+        "type": "behavioral",
+        "question": "Tell me a time when you failed."
+    },
+    {
+        "id": 20,
+        "type": "behavioral",
+        "question": "What do you read on a regular basis?"
+    },
+    {
+        "id": 21,
+        "type": "behavioral",
+        "question": "What's some critical feedback you've gotten recently?"
+    },
+    {
+        "id": 22,
+        "type": "behavioral",
+        "question": "Do you have any questions?"
+    }
+]
