@@ -1,10 +1,8 @@
-  // /bank
+// The Bank Questions
+const express = require("express");
+const router = express.Router()
+const bankController = require("../controllers/bank")
 
-  //// instead of
-  // /technicalquestions/endpoint=?
-  // /technicalquestions/html
-  // /technicalquestions/css
-  // /technicalquestions/js
+router.get("/", bankController.getQuestions)
 
-  // /behaviouralquestions
-  ////
+module.exports = router
