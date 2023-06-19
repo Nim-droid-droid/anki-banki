@@ -1,0 +1,1365 @@
+[
+  {
+    "id": 1,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Give me an example of the project or initiative that you started on your own. It can be a non-business one. What prompted you to get started?"
+  },
+  {
+    "id": 2,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Tell me about a time you had to work on several projects at once. How did you handle this?"
+  },
+  {
+    "id": 3,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Describe a situation in which you felt you had not communicated well enough. What did you do? How did you handle it?"
+  },
+  {
+    "id": 4,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Tell me about when you had to deal with conflict within your team. How was the conflict solved? How did you handle that? How would you deal with it now?"
+  },
+  {
+    "id": 5,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Give me an example of a time you had to take a creative and unusual approach to solve coding problem. How did this idea come to your mind? Why do you think it was unusual?"
+  },
+  {
+    "id": 6,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Describe a situation in which you worked diligently on a project and it did not produce the desired results. Why didn't you get the desired results? What did you learn from the experience?"
+  },
+  {
+    "id": 7,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Give an example of an important project goal you reached and how you achieved it."
+  },
+  {
+    "id": 8,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Describe a situation in which you experienced difficulty in getting others to accept your ideas? What was your approach? How did this work? Were you able to successfully persuade someone to see things your way"
+  },
+  {
+    "id": 9,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Tell me about a situation when you were responsible for project planning. Did everything go according to your plan? If not, then why and what kind of counteractions did you have to take?"
+  },
+  {
+    "id": 10,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Tell me about a situation when you made a mistake at work. What happened exactly and how did you deal with it? What steps did you take to improve the situation?"
+  },
+  {
+    "id": 11,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Tell me about a time when you worked with someone who was not completing his or her share of the work. How did you handle the situation? Did you discuss your concern with your coworker? With your manager? If yes, how did your coworker respond to your concern? What was your manager's response?"
+  },
+  {
+    "id": 12,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Describe a situation when you worked effectively under pressure. How did you feel when working under pressure? What was going on, and how did you get through it?"
+  },
+  {
+    "id": 13,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Tell me about yourself."
+  },
+  {
+    "id": 14,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Tell me about your experience at 100Devs. "
+  },
+  {
+    "id": 15,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "What do you know about our company?"
+  },
+  {
+    "id": 16,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Why do you want to work for us?"
+  },
+  {
+    "id": 17,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Why are you interested in this opportunity?"
+  },
+  {
+    "id": 18,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Tell me about your dream job?  What do you really want to do with your career?"
+  },
+  {
+    "id": 19,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Tell me a time when you failed."
+  },
+  {
+    "id": 20,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "What do you read on a regular basis?"
+  },
+  {
+    "id": 21,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "What's some critical feedback you've gotten recently?"
+  },
+  {
+    "id": 22,
+    "type": "behavioral",
+    "categories": [
+    ],
+    "question": "Do you have any questions?"
+  },
+  {
+    "id": 23,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "What does a doctype do?"
+  },
+  {
+    "id": 24,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "How do you serve a page with content in multiple languages?"
+  },
+  {
+    "id": 25,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "What kind of things must you be wary of when design or developing for multilingual sites?"
+  },
+  {
+    "id": 26,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "What are data- attributes good for?"
+  },
+  {
+    "id": 27,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "Consider HTML5 as an open web platform. What are the building blocks of HTML5?"
+  },
+  {
+    "id": 28,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "Describe the difference between a cookie, sessionStorage and localStorage."
+  },
+  {
+    "id": 29,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "Describe the difference between <script>, <script async> and <script defer>."
+  },
+  {
+    "id": 30,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "Why is it generally a good idea to position CSS <link>s between <head></head> and JS <script>s just before </body>? Do you know any exceptions?"
+  },
+  {
+    "id": 31,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "What is progressive rendering?"
+  },
+  {
+    "id": 32,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "Why you would use a srcset attribute in an image tag? Explain the process the browser uses when evaluating the content of this attribute."
+  },
+  {
+    "id": 33,
+    "type": "technical",
+    "categories": [
+      "html"
+    ],
+    "question": "Have you used different HTML templating languages before?"
+  },
+  {
+    "id": 34,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What is CSS selector specificity and how does it work?"
+  },
+  {
+    "id": 35,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What's the difference between \"resetting\" and \"normalizing\" CSS? Which would you choose, and why?"
+  },
+  {
+    "id": 36,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Describe floats and how they work."
+  },
+  {
+    "id": 37,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Describe z-index and how stacking context is formed."
+  },
+  {
+    "id": 38,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Describe BFC (Block Formatting Context) and how it works."
+  },
+  {
+    "id": 39,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What are the various clearing techniques and which is appropriate for what context?"
+  },
+  {
+    "id": 40,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Explain CSS sprites, and how you would implement them on a page or site."
+  },
+  {
+    "id": 41,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "How would you approach fixing browser-specific styling issues?"
+  },
+  {
+    "id": 42,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "How do you serve your pages for feature-constrained browsers? What techniques/processes do you use?"
+  },
+  {
+    "id": 43,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What are the different ways to visually hide content (and make it available only for screen readers)?"
+  },
+  {
+    "id": 44,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Have you ever used a grid system, and if so, what do you prefer?"
+  },
+  {
+    "id": 45,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Have you used or implemented media queries or mobile specific layouts/CSS?"
+  },
+  {
+    "id": 46,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Are you familiar with styling SVG?"
+  },
+  {
+    "id": 47,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Can you give an example of an @media property other than screen?"
+  },
+  {
+    "id": 48,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What are some of the \"gotchas\" for writing efficient CSS?"
+  },
+  {
+    "id": 49,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What are the advantages/disadvantages of using CSS preprocessors?"
+  },
+  {
+    "id": 50,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Describe what you like and dislike about the CSS preprocessors you have used."
+  },
+  {
+    "id": 51,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "How would you implement a web design comp that uses non-standard fonts?"
+  },
+  {
+    "id": 52,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Explain how a browser determines what elements match a CSS selector."
+  },
+  {
+    "id": 53,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Describe pseudo-elements and discuss what they are used for."
+  },
+  {
+    "id": 54,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models."
+  },
+  {
+    "id": 55,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What does * { box-sizing: border-box; } do? What are its advantages?"
+  },
+  {
+    "id": 56,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What is the CSS display property and can you give a few examples of its use?"
+  },
+  {
+    "id": 57,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What's the difference between inline and inline-block?"
+  },
+  {
+    "id": 58,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What's the difference between a relative, fixed, absolute and statically positioned element?"
+  },
+  {
+    "id": 59,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "What existing CSS frameworks have you used locally, or in production? How would you change/improve them?"
+  },
+  {
+    "id": 60,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Have you played around with the new CSS Flexbox or Grid specs?"
+  },
+  {
+    "id": 61,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?"
+  },
+  {
+    "id": 62,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "How is responsive design different from adaptive design?"
+  },
+  {
+    "id": 63,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Have you ever worked with retina graphics? If so, when and what techniques did you use?"
+  },
+  {
+    "id": 64,
+    "type": "technical",
+    "categories": [
+      "css"
+    ],
+    "question": "Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?"
+  },
+  {
+    "id": 65,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain event delegation"
+  },
+  {
+    "id": 66,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain how this works in JavaScript"
+  },
+  {
+    "id": 67,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain how prototypal inheritance works"
+  },
+  {
+    "id": 68,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What do you think of AMD vs CommonJS?"
+  },
+  {
+    "id": 69,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain why the following doesn't work as an IIFE: function foo(){ }();. What needs to be changed to properly make it an IIFE?"
+  },
+  {
+    "id": 70,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What's the difference between a variable that is: null, undefined or undeclared? How would you go about checking for any of these states?"
+  },
+  {
+    "id": 71,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is a closure, and how/why would you use one?"
+  },
+  {
+    "id": 72,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Can you describe the main difference between a .forEach loop and a .map() loop and why you would pick one versus the other?"
+  },
+  {
+    "id": 73,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What's a typical use case for anonymous functions?"
+  },
+  {
+    "id": 74,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "How do you organize your code? (module pattern, classical inheritance?)"
+  },
+  {
+    "id": 75,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What's the difference between host objects and native objects?"
+  },
+  {
+    "id": 76,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Difference between: function Person(){}, var person = Person(), and var person = new Person()?"
+  },
+  {
+    "id": 77,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What's the difference between .call and .apply?"
+  },
+  {
+    "id": 78,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain Function.prototype.bind."
+  },
+  {
+    "id": 79,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "When would you use document.write()?"
+  },
+  {
+    "id": 80,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What's the difference between feature detection, feature inference, and using the UA string?"
+  },
+  {
+    "id": 81,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain Ajax in as much detail as possible."
+  },
+  {
+    "id": 82,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are the advantages and disadvantages of using Ajax?"
+  },
+  {
+    "id": 83,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain how JSONP works (and how it's not really Ajax)."
+  },
+  {
+    "id": 84,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Have you ever used JavaScript templating? If so, what libraries have you used?"
+  },
+  {
+    "id": 85,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain \"hoisting\"."
+  },
+  {
+    "id": 86,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Describe event bubbling."
+  },
+  {
+    "id": 87,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What's the difference between an \"attribute\" and a \"property\"?"
+  },
+  {
+    "id": 88,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Why is extending built-in JavaScript objects not a good idea?"
+  },
+  {
+    "id": 89,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Difference between document load event and document DOMContentLoaded event?"
+  },
+  {
+    "id": 90,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is the difference between == and ===?"
+  },
+  {
+    "id": 91,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain the same-origin policy with regards to JavaScript."
+  },
+  {
+    "id": 92,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Make this work: duplicate([1,2,3,4,5]); // [1,2,3,4,5,1,2,3,4,5]"
+  },
+  {
+    "id": 93,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Why is it called a Ternary expression, what does the word \"Ternary\" indicate?"
+  },
+  {
+    "id": 94,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is \"use strict\";? what are the advantages and disadvantages to using it?"
+  },
+  {
+    "id": 95,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Create a for loop that iterates up to 100 while outputting \"fizz\" at multiples of 3, \"buzz\" at multiples of 5 and \"fizzbuzz\" at multiples of 3 and 5"
+  },
+  {
+    "id": 96,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Why is it, in general, a good idea to leave the global scope of a website as-is and never touch it?"
+  },
+  {
+    "id": 97,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Why would you use something like the load event? Does this event have disadvantages? Do you know any alternatives, and why would you use those?"
+  },
+  {
+    "id": 98,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain what a single page app is and how to make one SEO-friendly."
+  },
+  {
+    "id": 99,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is the extent of your experience with Promises and/or their polyfills?"
+  },
+  {
+    "id": 100,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are the pros and cons of using Promises instead of callbacks?"
+  },
+  {
+    "id": 101,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are some of the advantages/disadvantages of writing JavaScript code in a language that compiles to JavaScript?"
+  },
+  {
+    "id": 102,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What tools and techniques do you use debugging JavaScript code?"
+  },
+  {
+    "id": 103,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What language constructions do you use for iterating over object properties and array items?"
+  },
+  {
+    "id": 104,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain the difference between mutable and immutable objects."
+  },
+  {
+    "id": 105,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain the difference between synchronous and asynchronous functions."
+  },
+  {
+    "id": 106,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is event loop? What is the difference between call stack and task queue?"
+  },
+  {
+    "id": 107,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Explain the differences on the usage of foo between function foo() {} and var foo = function() {}"
+  },
+  {
+    "id": 108,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are the differences between variables created using let, var or const?"
+  },
+  {
+    "id": 109,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are the differences between ES6 class and ES5 function constructors?"
+  },
+  {
+    "id": 110,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Can you offer a use case for the new arrow => function syntax? How does this new syntax differ from other functions?"
+  },
+  {
+    "id": 111,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What advantage is there for using the arrow syntax for a method in a constructor?"
+  },
+  {
+    "id": 112,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is the definition of a higher-order function?"
+  },
+  {
+    "id": 113,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Can you give an example for destructuring an object or an array?"
+  },
+  {
+    "id": 114,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "ES6 Template Literals offer a lot of flexibility in generating strings, can you give an example?"
+  },
+  {
+    "id": 115,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Can you give an example of a curry function and why this syntax offers an advantage?"
+  },
+  {
+    "id": 116,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are the benefits of using spread syntax and how is it different from rest syntax?"
+  },
+  {
+    "id": 117,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "How can you share code between files?"
+  },
+  {
+    "id": 118,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Why you might want to create static class members?"
+  },
+  {
+    "id": 119,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "Can you name two programming paradigms important for JavaScript app developers?"
+  },
+  {
+    "id": 120,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is functional programming?"
+  },
+  {
+    "id": 121,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is the difference between classical inheritance and prototypal inheritance?"
+  },
+  {
+    "id": 122,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are the pros and cons of functional programming vs object-oriented programming?"
+  },
+  {
+    "id": 123,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What are two-way data binding and one-way data flow, and how are they different?"
+  },
+  {
+    "id": 124,
+    "type": "technical",
+    "categories": [
+      "javascript"
+    ],
+    "question": "What is asynchronous programming, and why is it important in JavaScript?"
+  },
+  {
+    "id": 125,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is Node.js? Where can you use it?"
+  },
+  {
+    "id": 126,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Why use Node.js?"
+  },
+  {
+    "id": 127,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are the features of Node.js?"
+  },
+  {
+    "id": 128,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "How do you update NPM to a new version in Node.js?"
+  },
+  {
+    "id": 129,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Why is Node.js Single-threaded?"
+  },
+  {
+    "id": 130,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Explain callback in Node.js."
+  },
+  {
+    "id": 131,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is callback hell in Node.js?"
+  },
+  {
+    "id": 132,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "How do you prevent/fix callback hell?"
+  },
+  {
+    "id": 133,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Explain the role of REPL in Node.js."
+  },
+  {
+    "id": 134,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Name the types of API functions in Node.js."
+  },
+  {
+    "id": 135,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are the functionalities of NPM in Node.js?"
+  },
+  {
+    "id": 136,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is the difference between Node.js and Ajax?"
+  },
+  {
+    "id": 137,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are “streams” in Node.js? Explain the different types of streams present in Node.js."
+  },
+  {
+    "id": 138,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Explain chaining in Node.js."
+  },
+  {
+    "id": 139,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are Globals in Node.js?"
+  },
+  {
+    "id": 140,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is Event-driven programming?"
+  },
+  {
+    "id": 141,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is Event loop in Node.js work? And How does it work?"
+  },
+  {
+    "id": 142,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is the purpose of module.exports in Node.js?"
+  },
+  {
+    "id": 143,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is the difference between Asynchronous and Non-blocking?"
+  },
+  {
+    "id": 144,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is Tracing in Node.js?"
+  },
+  {
+    "id": 145,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "How will you debug an application in Node.js?"
+  },
+  {
+    "id": 146,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "Difference between setImmediate() vs setTimeout()?"
+  },
+  {
+    "id": 147,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is process.nextTick()"
+  },
+  {
+    "id": 148,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is package.json? What is it used for?"
+  },
+  {
+    "id": 149,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is libuv?"
+  },
+  {
+    "id": 150,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What are some of the most popular modules of Node.js?"
+  },
+  {
+    "id": 151,
+    "type": "technical",
+    "categories": [
+      "node-js"
+    ],
+    "question": "What is EventEmitter in Node.js?"
+  },
+  {
+    "id": 152,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is recursion and give an example using javascript?"
+  },
+  {
+    "id": 153,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What are types?"
+  },
+  {
+    "id": 154,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What are data structures?"
+  },
+  {
+    "id": 155,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is an algorithm? "
+  },
+  {
+    "id": 156,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is scope / lexical scope in javascript? "
+  },
+  {
+    "id": 157,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is polymorphism?"
+  },
+  {
+    "id": 158,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is encapsulation? "
+  },
+  {
+    "id": 159,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Linked List"
+  },
+  {
+    "id": 160,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Doubly Linked List"
+  },
+  {
+    "id": 161,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Queue"
+  },
+  {
+    "id": 162,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Stack"
+  },
+  {
+    "id": 163,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Hash Table"
+  },
+  {
+    "id": 164,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Heap"
+  },
+  {
+    "id": 165,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Trie"
+  },
+  {
+    "id": 166,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Tree"
+  },
+  {
+    "id": 167,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Binary Search Tree"
+  },
+  {
+    "id": 168,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Disjoint Set"
+  },
+  {
+    "id": 169,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "What is a Bloom Filter"
+  },
+  {
+    "id": 170,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "Demonstrate Bubble Sort and explain when you might use it?"
+  },
+  {
+    "id": 171,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "Demonstrate Insertion Sort and explain when you might use it?"
+  },
+  {
+    "id": 172,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "Demonstrate Merge Sort and explain when you might use it?"
+  },
+  {
+    "id": 173,
+    "type": "technical",
+    "categories": [
+      "cs-theory"
+    ],
+    "question": "Demonstrate Quicksort and explain when you might use it?"
+  }
+]
+
