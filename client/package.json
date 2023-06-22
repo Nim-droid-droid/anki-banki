@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.13.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.0"
   },
@@ -37,6 +38,7 @@
   },
   "devDependencies": {
     "install": "^0.13.0",
-    "tailwindcss": "^3.3.2"
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.1.3"
   }
 }

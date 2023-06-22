@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-  background-color: powderblue;
+  margin: 0;
+  padding: 0;
+
+}
+*{
+  box-sizing: border-box;
 }
