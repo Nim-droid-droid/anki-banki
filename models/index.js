@@ -20,9 +20,14 @@ const QuestionSchema = new mongoose.Schema({
     type: String,
     default: 'unanswered' //also have great, good, ok, bad
   },
-  user: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
+  // user: {
+  //   type: mongoose.Schema.Types.ObjectId,
+  //   ref: "User",
+  // },
+  // my own:
+  userId: {
+    type: String,
+    require: true,
   },
   createdAt: {
     type: Date,
