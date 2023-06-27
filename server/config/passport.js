@@ -1,5 +1,6 @@
 const LocalStrategy = require("passport-local").Strategy
 const GoogleStrategy = require("passport-google-oauth20").Strategy
+const TwitterStrategy  = require('passport-twitter').Strategy;
 const mongoose = require("mongoose")
 const User = require("../models/User")
 const GoogleUser = require("../models/GoogleUser")
@@ -54,6 +55,20 @@ module.exports = (passport) => {
           }
         )
     )
+
+    passport.use("twitter", new TwitterStrategy({
+        // use Twitter API to authenticate users on my app
+        consumerKey: process.env.TWITTER_CONSUMER_KEY,
+        consumerSecret: process.env.TWITTER_CONSUMER_SECRET,
+        callbackURL: process.env.TWITTER_CALLBACK_URL
+      },   
+      (token, tokenSecret, profile, done) => {
+        // You can customize how you handle the user profile data here
+        // The "profile" parameter contains the user information obtained from Twitter
+        // You may want to store this information in your database or perform other operations
+        return done(null, profile)
+      }
+    ));
 
     passport.serializeUser((user, done) => {
         done(null, user.id)
