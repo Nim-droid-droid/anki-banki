@@ -1,0 +1,10 @@
+.filter-container {
+  @apply flex ml-auto gap-5 bg-gray100 px-4 py-2 w-[55%] h-[80px] items-center rounded-md;
+}
+
+.btn {
+  @apply bg-white px-6 py-2  rounded-md;
+}
+.dropdown {
+  @apply bg-white border-2 border-gray100 h-auto w-[200px] absolute left-0 top-[2.8rem] rounded-md px-6 py-4;
+}
