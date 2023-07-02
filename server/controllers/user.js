@@ -81,6 +81,18 @@ const googleCallback = async(req, res) => {
     })(req, res)
 }
 
+const twitter = async(req, res, next) => {
+    passport.authenticate('twitter', { scope: ['profile'] })(req,res, next)
+}
+
+const twitterCallback = async(req,res) =>{
+    passport.authenticate("twitter", {
+        failureRedirect: "/login",
+        successRedirect: "/logout",
+        failureFlash: "Invalid Twitter credentials"
+    })(req, res)
+}
+
 const logout = (req, res) => {
     req.logout((err) => {
         if (err) { return next (err) }
@@ -111,6 +123,8 @@ module.exports = {
     postSignup,
     google,
     googleCallback,
+    twitter,
+    twitterCallback,
     logout,
     getAccount,
     deleteUser,

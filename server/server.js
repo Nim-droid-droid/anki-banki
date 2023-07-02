@@ -53,7 +53,7 @@ app.use(express.json())
 app.use('/', require("./routes/main"))
 app.use("/", require("./routes/user"))
 
-const PORT = 8000;
-app.listen(process.env.PORT || PORT, () => {
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, () => {
   console.log(`Starting server on port ${PORT} in ${process.env.NODE_ENV} mode`);
 })
