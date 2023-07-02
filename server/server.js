@@ -41,6 +41,7 @@ if (process.env.NODE_ENV === "production") {
 // Middleware
 app.use(express.static("public"))
 app.use(session(sess))
+app.use(require("flash")())
 app.use(passport.initialize())
 app.use(passport.session())
 
