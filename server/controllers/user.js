@@ -58,6 +58,18 @@ const googleCallback = async(req, res) => {
     })(req, res)
 }
 
+const twitter = async(req, res, next) => {
+    passport.authenticate('twitter', { scope: ['profile'] })(req,res, next)
+}
+
+const twitterCallback = async(req,res) =>{
+    passport.authenticate("twitter", {
+        failureRedirect: "/login",
+        successRedirect: "/logout",
+        failureFlash: "Invalid Twitter credentials"
+    })(req, res)
+}
+
 const logout = (req, res) => {
     // TODO: remove this workaround once passportjs is properly updated to stop giving
     // req.session.regenerate undefined errors, otherwise this is a needed workaround
@@ -90,6 +102,8 @@ module.exports = {
     postSignup,
     google,
     googleCallback,
+    twitter,
+    twitterCallback,
     logout,
     getAccount,
     deleteUser,
