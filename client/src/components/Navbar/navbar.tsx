@@ -50,7 +50,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <div className="line"></div>
+          <div className="line bg-gray100"></div>
         </div>
       </nav>
     </div>
