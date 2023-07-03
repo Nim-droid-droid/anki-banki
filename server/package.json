@@ -18,6 +18,7 @@
   "bugs": {
     "url": "https://github.com/Nim-droid-droid/anki-banki/issues"
   },
+  "passport": "github:joeyguerra/passport#missing-regenerate-on-req",
   "homepage": "https://github.com/Nim-droid-droid/anki-banki#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -26,14 +27,17 @@
     "ejs": "^3.1.9",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
+    "flash": "^1.1.0",
     "jsonwebtoken": "^9.0.0",
     "method-override": "^3.0.0",
     "moment": "^2.29.4",
     "mongoose": "^7.0.3",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.22",
-    "passport": "^0.6.0",
+    "passport": "^0.5.3",
     "passport-google-oauth20": "^2.0.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "validator": "^13.9.0"
+    "passport-twitter": "^1.0.4"
   }
 }
