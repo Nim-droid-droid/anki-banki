@@ -10,6 +10,8 @@ router.get('/signup', userController.getSignup)
 router.post('/signup', userController.postSignup)
 router.get("/auth/google", userController.google)
 router.get("/auth/google/callback", userController.googleCallback)
+router.get("/auth/twitter", userController.twitter)
+router.get("/auth/twitter/callback", userController.twitterCallback)
 
 router.get('/account', ensureAuth, userController.getAccount)
 router.post('/account/delete', ensureAuth, userController.deleteUser)
