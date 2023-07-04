@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Button from '../Button';
 
 const MyBankFilter = () => {
   const [typeDropdown, setTypeDropdown] = useState(false);
@@ -7,11 +8,11 @@ const MyBankFilter = () => {
     <div className="my-bank">
       <div className="mybank-line" />
       <h2 className="mybank-title">myBank</h2>
-      <div className="filter-container mr-14 ">
-        <button className="btn">filter by :</button>
+      <div className="filter-container mr-14 font-semibold">
+        <button className="btn ">filter by :</button>
         <div className="relative">
           <button
-            className="btn w-[200px] "
+            className="btn w-[200px] text-gray-400 font-bold"
             onClick={() => setTypeDropdown((prev) => !prev)}
           >
             type
@@ -49,14 +50,14 @@ const MyBankFilter = () => {
                     CS Theory
                   </p>
                 </div>
-                <button className="add-btn">+</button>
+                <Button styles={'px-16 '} />
               </div>
             </div>
           )}
         </div>
         <div className="relative">
           <button
-            className="btn w-[230px]"
+            className="btn w-[230px] text-gray-400 font-bold"
             onClick={() => setStatusDropdown((prev) => !prev)}
           >
             status
@@ -89,7 +90,7 @@ const MyBankFilter = () => {
                     Not so good!
                   </p>
                 </div>
-                <button className="add-btn">+</button>
+                <Button styles={'px-20 '} />
               </div>
             </div>
           )}

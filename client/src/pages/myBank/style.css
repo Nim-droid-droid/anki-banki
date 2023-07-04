@@ -16,9 +16,17 @@
 }
 
 .mybank-line {
-  @apply h-[0.2rem] w-[100%] absolute bg-red-400 z-[-1] top-[53%];
+  @apply h-[0.2rem] w-[70%] absolute bg-red-400 z-[-1] top-[53%];
 }
 
 .add-btn {
-  @apply bg-transparent border-2 border-primary w-[80%] rounded-md mt-2;
+  @apply bg-transparent border-2 border-primary w-[90%] rounded-md mt-4 cursor-pointer;
 }
+
+/* body{
+  color:#4ba1e3;
+  color:#379ae6;
+  color:#d37f2a;
+  color:#e6358d;
+  
+} */
