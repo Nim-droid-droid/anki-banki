@@ -1,0 +1,32 @@
+.my-bank {
+  @apply flex mt-6 items-center relative;
+}
+.mybank-title {
+  @apply text-5xl font-bold ml-20 text-orange bg-white;
+}
+.filter-container {
+  @apply flex ml-auto gap-5 justify-center bg-gray100 px-0 py-2 w-auto px-4 h-[80px] items-center rounded-md;
+}
+
+.btn {
+  @apply bg-white px-6 py-2  rounded-md;
+}
+.dropdown {
+  @apply bg-white border-2 border-gray100 drop-shadow-md h-auto  absolute left-0 top-[2.8rem] rounded-md px-6 py-4 transition-all duration-300 ease-in-out z-30;
+}
+
+.mybank-line {
+  @apply h-[0.2rem] w-[70%] absolute bg-red-400 z-[-1] top-[53%];
+}
+
+.add-btn {
+  @apply bg-transparent border-2 border-primary w-[90%] rounded-md mt-4 cursor-pointer;
+}
+
+/* body{
+  color:#4ba1e3;
+  color:#379ae6;
+  color:#d37f2a;
+  color:#e6358d;
+  
+} */
