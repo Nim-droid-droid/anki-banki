@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './style.css';
 import MyBankFilter from '../../components/MyBankFilter/MyBankFilter';
 import Questions from '../../components/Questions';

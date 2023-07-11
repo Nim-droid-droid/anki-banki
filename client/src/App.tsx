@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from './components/Navbar/navbar'
 import {Route, Routes} from 'react-router-dom'
 import About from "./pages/About";
-import MyBank from "./pages/MyBank";
+import MyBank from "./pages/myBank";
 import Resources from "./pages/resources";
 import Help from "./pages/help";
 import Home from "./pages/Home";
