@@ -1,19 +1,19 @@
-.nav-wrapper{
-    @apply flex justify-between m-auto w-full pl-12 h-20 items-center;
+.nav-wrapper {
+  @apply flex justify-between m-auto w-full pl-12 h-20 items-center;
 }
-.logo{
-    @apply font-bold text-5xl border-b-primary border-b-[5px];
+.logo {
+  @apply font-bold text-5xl border-b-primary border-b-[5px];
 }
 
-.nav-container{
-@apply relative w-[50%];
+.nav-container {
+  @apply relative w-[50%];
 }
-.nav-link{
-    @apply flex  w-full justify-around text-4xl ;
+.nav-link {
+  @apply flex  w-full justify-around text-4xl;
 }
-.each-link{
-    @apply cursor-pointer;
+.each-link {
+  @apply cursor-pointer;
 }
-.line{
-    @apply w-[100%] h-[5px] bg-gray100 absolute top-[90%] z-[-10];
+.line {
+  @apply w-[100%] h-[5px]  absolute top-[90%] z-[-10];
 }
