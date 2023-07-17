@@ -1,0 +1,4 @@
+.button-wrapper{
+    @apply bg-[#3FDBB6] flex justify-center items-center;
+
+}
