@@ -1,5 +1,5 @@
 import React from "react";
-
+import './Input.css'
 interface IInput {
   placeHolder: string;
 }
@@ -7,7 +7,7 @@ interface IInput {
 const Input = ({ placeHolder }: IInput) => {
   return (
     <div className="input-wrapper">
-      <input type="text" placeholder={placeHolder} />
+      <input type="text" placeholder={placeHolder} className='flex-1' />
     </div>
   );
 };

@@ -1,5 +1,5 @@
 .nav-wrapper {
-  @apply flex justify-between m-auto w-full pl-12 h-20 items-center;
+  @apply flex justify-between m-auto w-full pl-12 h-20 items-center cursor-pointer;
 }
 .logo {
   @apply font-bold text-5xl border-b-primary border-b-[5px];

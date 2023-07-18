@@ -1,33 +1,40 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import "./navbar.css";
 import { useNavigate } from "react-router-dom";
 
+
+const tabs = [
+  {
+    title: "about",
+    link: "/about",
+  },
+  {
+    title: "myBank",
+    link: "/myBank",
+  },
+  {
+    title: "resources",
+    link: "/resources",
+  },
+  {
+    title: "help",
+    link: "/help",
+  },
+  {
+    title: "login",
+    link: "/login",
+  },
+];
 const Navbar = () => {
-  const tabs = [
-    {
-      title: "about",
-      link: "/about",
-    },
-    {
-      title: "myBank",
-      link: "myBank",
-    },
-    {
-      title: "resources",
-      link: "resources",
-    },
-    {
-      title: "help",
-      link: "help",
-    },
-    {
-      title: "login",
-      link: "login",
-    },
-  ];
+ 
   const [active, setActive] = useState(0);
   const navigate = useNavigate();
+
+  useEffect(() => {
+
+    }, [active])
+  
   return (
     <div className="flex">
       <nav className="nav-wrapper">
@@ -37,8 +44,8 @@ const Navbar = () => {
             {tabs.map((tab, index) => (
               <li
                 onClick={() => {
-                  setActive(index);
                   navigate(`${tab.link}`);
+                  setActive(index);
                 }}
                 className={`each-link ${
                   active === index

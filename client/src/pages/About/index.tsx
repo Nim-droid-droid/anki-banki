@@ -1,8 +1,9 @@
 import React from 'react'
+import PageLayout from '../../Layout'
 
 const About = () => {
   return (
-    <div>About</div>
+    <PageLayout>About</PageLayout>
   )
 }
 

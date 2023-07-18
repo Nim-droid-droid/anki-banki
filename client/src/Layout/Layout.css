@@ -1,0 +1,27 @@
+.page-layout-wrapper{
+    @apply flex flex-col overflow-hidden h-screen relative;
+}
+.main{
+    @apply flex-1 h-screen overflow-auto;
+}
+/* .overlay-background{
+    @apply w-full h-full top-0 left-0 right-0 bottom-0 fixed z-0;
+    background-color: rgba(0, 0, 0, 0.5);
+} */
+.layout{
+    /* @apply fixed top-0 left-0 right-0 bottom-0 w-full h-full ;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:9999;
+    backdrop-filter: blur(0px); */
+
+    width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(20px);
+    z-index: 10;
+}
