@@ -8,7 +8,7 @@ const Questions = () => {
       <div className="w-[80%] mx-auto mb-4">
         <div className="flex justify-between font-semibold relative ">
           <h3 className="text-3xl">Behavioural</h3>
-          <a href="/mybank" className="text-blue-500">
+          <a href="/createquestion" className="text-blue-500">
             add new <Button styles={'px-1 ml-1'} />
           </a>
           <div className="line bg-primary " />
@@ -41,7 +41,7 @@ const Questions = () => {
       <div className="w-[80%] mx-auto ">
         <div className="flex justify-between font-semibold relative items-center  ">
           <h3 className="text-3xl">Technical</h3>
-          <a href="/mybank" className="text-blue-500">
+          <a href="/createquestion" className="text-blue-500">
             add new <Button styles={'px-1 ml-1'} />
           </a>
           <div className="line bg-primary " />
