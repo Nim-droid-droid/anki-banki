@@ -30,7 +30,7 @@ let sess = {
   store: MongoStore.create({
    client: mongoose.connection.getClient(),
   }),
-  cookie: {}
+  cookie: { secure: false }
 }
 
 if (process.env.NODE_ENV === "production") {
