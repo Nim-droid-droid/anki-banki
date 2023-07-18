@@ -10,7 +10,7 @@ const PageLayout = ({
   pathName?: string;
 }) => {
   return (
-    <div className={`page-layout-wrapper ${pathName ? "layout" : ""}`}>
+    <div className={`page-layout-container ${pathName ? "layout" : ""}`}>
       <div className="">
         <div className="">
           <Navbar />
