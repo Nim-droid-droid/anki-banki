@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 const CreateQuestion = () => {
-  // const []
   return (
     <>
       <form className="w-[70%]  border-gray100 border-4   mt-10 py-6 px-10 rounded-lg mx-auto">
