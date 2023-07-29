@@ -1,8 +1,9 @@
 import React from 'react'
+import PageLayout from '../../Layout'
 
 const Help = () => {
   return (
-    <div>Help</div>
+    <PageLayout>Help</PageLayout>
   )
 }
 

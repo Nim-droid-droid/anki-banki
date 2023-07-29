@@ -1,8 +1,9 @@
 import React from 'react'
+import PageLayout from '../../Layout'
 
 const Resources = () => {
   return (
-    <div>Resources</div>
+    <PageLayout>Resources</PageLayout>
   )
 }
 

@@ -1,0 +1,19 @@
+.signUp-wrapper{
+    @apply flex flex-col pt-8 pb-24;
+}
+.signUp--heading{
+    @apply flex items-center;
+}
+.signUp{
+    @apply text-6xl font-extrabold text-red-400;
+}
+
+.signUp-content{
+    @apply w-[25%] m-auto flex flex-col justify-center gap-4 bg-white p-8 rounded ;
+}
+.signup-input{
+    @apply flex flex-col gap-4 ;
+}
+.button-wrapper{
+    @apply flex flex-col gap-4;
+}

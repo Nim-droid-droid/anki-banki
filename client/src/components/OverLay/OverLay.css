@@ -1,0 +1,24 @@
+.overlay{
+    /* @apply  */
+}
+.overlay-background{
+    background-color: rgba(0,0,0,0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    z-index: 9;
+}
+.overlay-container{
+    background-color: white;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10;
+    width: fit-content;
+    height: fit-content;
+}
