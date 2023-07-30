@@ -15,10 +15,6 @@ require('dotenv').config({ path: path.join(__dirname, ".env")  });
 // Initialize Express
 const app = express()
 
-// Template engine config
-app.set('views', path.join(__dirname, '../client/views'))
-app.set("view engine", "ejs")
-
 // Connect to DB
 const { connectDB } = require('./config/database')
 connectDB()
