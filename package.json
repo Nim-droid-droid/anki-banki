@@ -1,19 +1,22 @@
 {
   "name": "anki-banki",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=production node server.js",
-    "dev": "NODE_ENV=development nodemon server.js"
+    "client": "cd client && npm start",
+    "server": "node server/server.js",
+    "dev:client": "NODE_ENV=development npm run client",
+    "dev:server": "NODE_ENV=development npm run server",
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\""
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nim-droid-droid/anki-banki.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "cblanken",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nim-droid-droid/anki-banki/issues"
@@ -21,7 +24,11 @@
   "passport": "github:joeyguerra/passport#missing-regenerate-on-req",
   "homepage": "https://github.com/Nim-droid-droid/anki-banki#readme",
   "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
     "bcryptjs": "^2.4.3",
+    "concurrently": "^8.2.0",
     "connect-mongo": "^5.0.0",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
@@ -33,11 +40,20 @@
     "moment": "^2.29.4",
     "mongoose": "^7.0.3",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.22",
     "passport": "^0.6.0",
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.13.0",
+    "react-scripts": "5.0.1",
     "validator": "^13.9.0",
-    "passport-twitter": "^1.0.4"
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "nodemon": "^2.0.22",
+    "tailwindcss": "^3.3.2"
   }
 }

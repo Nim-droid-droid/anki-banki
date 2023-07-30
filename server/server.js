@@ -1,5 +1,5 @@
 // Load .env config
-require('dotenv').config({ path: "./config/.env" });
+//require('dotenv').config({ path: "./config/.env" });
 
 const express = require('express')
 const session = require("express-session")
@@ -9,6 +9,8 @@ const mongoose = require('mongoose')
 const path = require('path')
 const morgan = require('morgan')
 const methodOverride = require('method-override')
+
+require('dotenv').config({ path: path.join(__dirname, ".env")  });
 
 // Initialize Express
 const app = express()
