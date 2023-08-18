@@ -47,7 +47,6 @@ app.use(express.urlencoded({extended: true}) )
 app.use(express.json())
 
 // Router(s) config
-app.use('/', require("./routes/main"))
 app.use("/", require("./routes/user"))
 app.use("/questions", require("./routes/bank"))
 
