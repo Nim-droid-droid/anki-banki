@@ -51,11 +51,11 @@ const postSignup = async(req, res, next) => {
         return res.redirect("/signup")
     }
 
-    const { username, email, password, confirmPassword } = req.body;
+    const { username, email, password } = req.body;
 
     const user = new User({ username, email, password })
 
-    const existingUser = await User.findOne({$or: [{ email }, { username }]})
+    const existingUser = await User.findOne({$or: [{ email }, { username: username }]})
     if (existingUser) {
         console.log("Can't signup. Account already exists")
         return res.redirect("/signup")
@@ -70,7 +70,7 @@ const postSignup = async(req, res, next) => {
 }
 
 const google = async(req, res) => {
-    passport.authenticate("google", { scope: ["profile"] })(req, res)
+    passport.authenticate("google", { scope: ["profile", "email"] })(req, res)
 }
 
 const googleCallback = async(req, res) => {
@@ -82,15 +82,15 @@ const googleCallback = async(req, res) => {
 }
 
 const twitter = async(req, res, next) => {
-    passport.authenticate('twitter', { scope: ['profile'] })(req,res, next)
+    passport.authenticate('twitter', { scope: ['profile'] })(req, res, next)
 }
 
-const twitterCallback = async(req,res) =>{
+const twitterCallback = async(req, res, next) =>{
     passport.authenticate("twitter", {
         failureRedirect: "/login",
-        successRedirect: "/logout",
+        successRedirect: "/",
         failureFlash: "Invalid Twitter credentials"
-    })(req, res)
+    })(req, res, next)
 }
 
 const logout = (req, res) => {
