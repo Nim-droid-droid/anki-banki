@@ -9,7 +9,8 @@ module.exports = {
         gray600: '#2F2F2F',
         gray400: '#808080',
         orange: '#FF9574',
-        pink300: '#FF6B6B'
+        pink300: '#FF6B6B',
+        'accent-100': '#FB6F6C',
       },
     },
   },
