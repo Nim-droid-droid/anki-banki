@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../../components/Button/Button";
 import Input from "../../components/Navbar/Input";
+import Overlay from "../../components/OverLay";
 import PageLayout from "../../Layout";
 import "./SignUp.css";
 import { useNavigate, Location, useLocation} from "react-router-dom";
@@ -15,6 +16,7 @@ const SignUp = () => {
           <div className="signUp"> SignUp</div>
           <div className="border-right"></div>
         </div>
+        <Overlay>
         <div className="signUp-content">
           <div className="signup-input">
             <h2 className="tex text-3xl font-bold">Sign Up</h2>
@@ -62,6 +64,7 @@ const SignUp = () => {
             />
           </div>
         </div>
+        </Overlay>
       </div>
     </PageLayout>
   );

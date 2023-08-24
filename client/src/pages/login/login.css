@@ -5,13 +5,13 @@
     @apply flex items-center;
 }
 .border-left{
-    @apply h-[0.25rem]  bg-red-400 w-[15%];
+    @apply h-[0.25rem] bg-accent-100 w-[15%];
 }
 .login{
-    @apply text-6xl font-extrabold text-red-400;
+    @apply text-6xl font-extrabold text-accent-100;
 }
 .border-right{
-    @apply w-full h-[0.25rem] bg-red-400;
+    @apply w-full h-[0.25rem] bg-accent-100;
 }
 .content-wrapper{
     @apply h-[80vh] grid items-center; 
