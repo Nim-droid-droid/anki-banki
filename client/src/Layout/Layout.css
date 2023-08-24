@@ -1,0 +1,17 @@
+.page-layout-container{
+    @apply flex flex-col overflow-hidden h-screen relative;
+}
+.main{
+    @apply flex-1 h-screen overflow-auto;
+}
+.layout{
+    width: 100%;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    z-index: 10;
+}

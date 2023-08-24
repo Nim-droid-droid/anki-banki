@@ -1,0 +1,21 @@
+.login-wrapper{
+    @apply pt-8;  
+}
+.login--heading{
+    @apply flex items-center;
+}
+.border-left{
+    @apply h-[0.25rem] bg-accent-100 w-[15%];
+}
+.login{
+    @apply text-6xl font-extrabold text-accent-100;
+}
+.border-right{
+    @apply w-full h-[0.25rem] bg-accent-100;
+}
+.content-wrapper{
+    @apply h-[80vh] grid items-center; 
+}
+.content{
+    @apply w-[20%] m-auto  h-[50%] flex flex-col justify-center gap-4 bg-white p-8 rounded;
+}
