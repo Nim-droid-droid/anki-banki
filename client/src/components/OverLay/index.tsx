@@ -5,8 +5,8 @@ const OverLay = ({ children }: { children: ReactNode }) => {
   return (
     <div className="overlay">
       <div className="overlay-background">
-        <div className="overlay-container">
-          <div className="z- z-50">{children}</div>
+        <div className="overlay-container flex flex-col justify-center h-screen w-screen">
+          <div>{children}</div>
         </div>
       </div>
     </div>
