@@ -52,6 +52,7 @@ app.use(express.json())
 // Router(s) config
 app.use('/', require("./routes/main"))
 app.use("/", require("./routes/user"))
+app.use("/questions", require("./routes/bank"))
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, () => {
