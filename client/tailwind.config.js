@@ -10,6 +10,10 @@ module.exports = {
         orange: '#FF9574',
         blue: '#61E2FF',
         darkGray: '#939393',
+        lightGray: '#EEE',
+      },
+      fontFamily: {
+        inter: 'Inter',
       },
     },
   },

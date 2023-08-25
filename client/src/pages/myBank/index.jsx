@@ -5,7 +5,7 @@ import Questions from '../../components/Questions';
 
 const MyBank = () => {
   return (
-    <article>
+    <article className="font-inter">
       <MyBankFilter />
       <Questions />
     </article>
