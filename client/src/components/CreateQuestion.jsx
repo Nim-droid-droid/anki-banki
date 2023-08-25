@@ -14,14 +14,14 @@ const CreateQuestion = () => {
             name="question"
             cols="10"
             rows="5"
-            className="my-4 outline-none border-blue border-2  rounded-lg p-2 text-xl text-darkGray"
+            className="my-4 outline-none border-blue border-2  rounded-lg p-2 text-xl text-darkGray focus:text-darkCharcoal"
             placeholder="type your question here..."
           />
           <textarea
             name="answer"
             cols="10"
             rows="5"
-            className="my-2 outline-none border-blue border-2 rounded-lg p-2 text-xl text-darkGray"
+            className="my-2 outline-none border-blue border-2 rounded-lg p-2 text-xl text-darkGray focus:text-darkCharcoal"
             placeholder="type your question here..."
           />
           <div className="flex justify-between mt-2">

@@ -11,6 +11,7 @@ module.exports = {
         blue: '#61E2FF',
         darkGray: '#939393',
         lightGray: '#EEE',
+        darkCharcoal: '#2F2F2F',
       },
       fontFamily: {
         inter: 'Inter',
