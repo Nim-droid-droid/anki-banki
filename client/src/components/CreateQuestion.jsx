@@ -24,18 +24,18 @@ const CreateQuestion = () => {
             className="my-2 outline-none border-green border-2 rounded-lg p-2 text-xl text-darkGray text-[27px] focus:text-darkCharcoal"
             placeholder="type your answer here..."
           />
-          <div className="flex justify-between mt-2">
-            <button className="flex gap-2 btn border-blue border-2 h-[56px] justify-center items-center text-[24px]">
+          <div className="flex justify-between mt-2 ">
+            <button className="flex gap-2 btn border-blue border-2 h-[56px] justify-center items-center text-[24px] font-medium">
               add to existing category
               <img src={polygon} alt="" className="w-3  mt-1" />
             </button>
-            <button className="btn w-[362px] h-[56px] border-orange border-2 text-[24px]">
+            <button className=" btn w-[362px] h-[56px] border-orange border-2 text-[24px] font-medium">
               add to new category{' '}
-              <span className="text-orange font-bold text-lg ml-5"> +</span>
+              <span className="text-orange font-bold text-2xl ml-5"> +</span>
             </button>
             <button
               type="button"
-              className="btn w-[238px] h-[ 56px] bg-blue text-[24px]"
+              className="btn w-[238px] h-[ 56px] bg-blue text-[24px] font-bold"
             >
               add question
             </button>
