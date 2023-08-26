@@ -14,32 +14,35 @@ const CreateQuestion = () => {
             name="question"
             cols="10"
             rows="5"
-            className="my-4 outline-none border-blue border-2  rounded-lg p-2 text-xl text-darkGray focus:text-darkCharcoal"
+            className="my-4 outline-none border-blue border-2  rounded-lg p-2 text-xl text-darkGray text-[27px] focus:text-darkCharcoal"
             placeholder="type your question here..."
           />
           <textarea
             name="answer"
             cols="10"
             rows="5"
-            className="my-2 outline-none border-blue border-2 rounded-lg p-2 text-xl text-darkGray focus:text-darkCharcoal"
-            placeholder="type your question here..."
+            className="my-2 outline-none border-green border-2 rounded-lg p-2 text-xl text-darkGray text-[27px] focus:text-darkCharcoal"
+            placeholder="type your answer here..."
           />
           <div className="flex justify-between mt-2">
-            <button className="flex gap-2 btn border-blue border-2 h-[56px] justify-center items-center">
+            <button className="flex gap-2 btn border-blue border-2 h-[56px] justify-center items-center text-[24px]">
               add to existing category
               <img src={polygon} alt="" className="w-3  mt-1" />
             </button>
-            <button className="btn border-orange border-2">
+            <button className="btn w-[362px] h-[56px] border-orange border-2 text-[24px]">
               add to new category{' '}
               <span className="text-orange font-bold text-lg ml-5"> +</span>
             </button>
-            <button type="button" className="btn bg-blue">
+            <button
+              type="button"
+              className="btn w-[238px] h-[ 56px] bg-blue text-[24px]"
+            >
               add question
             </button>
           </div>
         </div>
       </form>
-      <p className="ml-[15%] mt-6 text-darkGray tracking-wider">
+      <p className="ml-[15%] mt-6 text-darkGray tracking-wider text-[24px]">
         This project was made by students and is not associated with 100devs.
       </p>
     </>
