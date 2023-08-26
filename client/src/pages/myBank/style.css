@@ -9,7 +9,7 @@
 }
 
 .btn {
-  @apply bg-white px-6 py-2  rounded-md;
+  @apply px-6 py-2  rounded-lg;
 }
 .dropdown {
   @apply bg-white border-2 border-gray100 drop-shadow-md h-auto  absolute left-0 top-[2.8rem] rounded-md px-6 py-4 transition-all duration-300 ease-in-out z-30;
@@ -22,11 +22,3 @@
 .add-btn {
   @apply bg-transparent border-2 border-primary w-[90%] rounded-md mt-4 cursor-pointer;
 }
-
-/* body{
-  color:#4ba1e3;
-  color:#379ae6;
-  color:#d37f2a;
-  color:#e6358d;
-  
-} */

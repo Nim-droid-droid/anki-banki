@@ -6,6 +6,7 @@ import MyBank from "./pages/myBank";
 import Resources from "./pages/resources";
 import Help from "./pages/help";
 import Home from "./pages/Home";
+import CreateQuestion from "./components/CreateQuestion";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Routes>
       <Route path="/" element={<Home/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/mybank" element={<MyBank/>}/>
+        <Route path="/mybank" element={<MyBank />} />
+        <Route path='/createquestion' element={<CreateQuestion/>}/>
         <Route path="/resources" element={<Resources/>}/>
         <Route path="/help" element={<Help/>}/>
       </Routes>

@@ -12,7 +12,7 @@ const MyBankFilter = () => {
         <button className="btn ">filter by :</button>
         <div className="relative">
           <button
-            className="btn w-[200px] text-gray-400 font-bold"
+            className="btn w-[200px] bg-white text-gray-400 font-bold"
             onClick={() => setTypeDropdown((prev) => !prev)}
           >
             type
@@ -57,7 +57,7 @@ const MyBankFilter = () => {
         </div>
         <div className="relative">
           <button
-            className="btn w-[230px] text-gray-400 font-bold"
+            className="btn w-[230px] text-gray-400 bg-white font-bold"
             onClick={() => setStatusDropdown((prev) => !prev)}
           >
             status
@@ -95,7 +95,7 @@ const MyBankFilter = () => {
             </div>
           )}
         </div>
-        <button className="btn">+</button>
+        <button className="btn bg-white">+</button>
       </div>
     </div>
   );
