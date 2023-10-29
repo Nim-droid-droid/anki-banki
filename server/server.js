@@ -1,5 +1,3 @@
-// Load .env config
-require('dotenv').config({ path: "./config/.env" });
 
 const express = require('express')
 const session = require("express-session")
@@ -10,12 +8,11 @@ const path = require('path')
 const morgan = require('morgan')
 const methodOverride = require('method-override')
 
+// Load .env config
+require('dotenv').config({ path: path.join(__dirname, ".env")  });
+
 // Initialize Express
 const app = express()
-
-// Template engine config
-app.set('views', path.join(__dirname, '../client/views'))
-app.set("view engine", "ejs")
 
 // Connect to DB
 const { connectDB } = require('./config/database')
@@ -50,7 +47,6 @@ app.use(express.urlencoded({extended: true}) )
 app.use(express.json())
 
 // Router(s) config
-app.use('/', require("./routes/main"))
 app.use("/", require("./routes/user"))
 app.use("/questions", require("./routes/bank"))
 
